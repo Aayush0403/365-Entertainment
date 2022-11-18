@@ -1,0 +1,347 @@
+body,html
+{
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%; 
+    background: url("images/body.gif"); 
+}
+.main
+{  
+   
+    width: 100%;
+    margin: auto;   
+}
+.navbar
+{
+    padding-top: 30px;
+    height: 60px;
+}
+.logo
+{
+    color: #f2a223;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.logo2
+{
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.nav-item 
+{
+    z-index: 2;
+}
+.nav-item .nav-link span
+{
+   color: #fff;
+   font-weight: bolder;
+   font-size: larger;
+   position: relative;
+   top:6px;
+   padding-left: 20px;
+   padding-right: 20px;
+   
+}
+.nav-item .nav-link span:hover
+{
+    text-decoration:underline;
+    color: #f2a223;
+}
+
+.form-control
+{
+    width: 300px;
+    z-index: 2;
+}
+.acc
+{
+    margin-top: -23px;
+    font-weight: bolder;   
+}
+#bbtn
+{
+    z-index: 4;
+}
+.dropdown-menu
+{
+    transform: translate(-35px);
+}
+.carousel-inner
+{
+    height: 86vh;
+}
+
+.b
+{
+    margin-top: 12px;
+    border-bottom: 2px dashed #666; 
+}
+.sec
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec img{
+    border-radius: 6px;
+    transition: .12s ease-in;
+    width: 19%;
+    padding: 2px;
+    cursor: pointer;
+}
+.sec img:hover
+{
+    transform: scale(105%);
+   
+}
+.vid h5
+{
+    color: #f2a223;
+}
+.latest
+{
+    padding-top: 20px;
+}
+.latest .see
+{
+    float:right;
+    color: #f2a223;
+}
+.latest .lat
+{
+    color: #f2a223;
+}
+
+.latest .mov
+{
+    
+    padding-top: 0px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.mov .movie
+{
+    margin: 3px;
+    box-sizing: border-box;
+   width: 170px;
+   
+}
+.mov .movie .inner
+{
+    
+    position: absolute; 
+    border-radius: 5px; 
+    width: inherit;
+    
+}
+.mov .movie .hovr
+{
+     width: inherit;
+}
+.movie .det
+{
+    width: inherit;
+}
+
+
+.mov .movie .hovr:hover
+{
+    cursor: pointer; 
+    width: inherit; 
+}
+
+
+.det{
+    display: flex;
+    justify-content: space-between;  
+}
+.lt 
+{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2a223;
+}
+.rt 
+{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2a223;
+}
+.see
+{
+    display: none;
+}
+
+.box
+{
+    height: 125h;
+    display: flex;
+    justify-content: space-between;
+    padding-top:15px;
+
+}
+.left h3 a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.right
+{
+    height: inherit;
+    width: 50%;
+    color: #fff;
+    
+}
+.left
+{
+    height: inherit;
+    width: 50%;
+    color: #fff;
+}
+.cntx .date
+{
+    color: #666;
+}
+.cntx h4
+{
+    color:#f2a223;
+}
+.right
+{
+    padding-left: 35px;
+}
+footer
+{
+    text-align: center;
+    height: 10vh;
+    color: #f2a223;
+    margin: auto;
+}
+.follow
+{
+    display: flex;
+    justify-content:center;
+}
+.follow img
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.follow img:hover
+{
+    transform: scale(130%);
+    cursor: pointer;
+}
+.abc
+{
+    z-index:-1;   
+}
+.cntx a{
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px)
+{
+    .carousel-inner
+    {
+        height: inherit;
+    }
+   
+    .mov
+    {
+        box-sizing:border-box;
+              
+    }
+    .mov .movie{
+        padding: 4px;
+        width: 100px;
+    }
+    .mov .movie .lt
+    {
+        width:70%;
+        font-size: 8px;
+    }  
+    .mov .movie .rt
+    {
+       font-size: 10px;
+    }
+
+}
+@media screen and (max-width:600px)
+{
+    .mov .hide
+    {
+        display: none;
+    }
+    .see
+   {
+    display:block;
+   }
+   .mov .movie{
+    justify-content: space-between;
+   }
+   .srch
+   {
+    z-index:4;
+    margin-top: -8px;
+    width: 300px;
+   
+   }
+   .nav-item
+   {
+    
+    background-color:rgb(52, 49, 49);
+    z-index: 3;
+   }
+   #bbtn
+   {
+    background-color: darkcyan;
+    color: white;
+    width: 80px;
+    margin-left: -8px;
+   }
+   .bstn
+   {
+    margin-left: 20px;
+   }
+}
+@media screen  and (min-width:380px) and (max-width:400px)
+{
+    .srch
+    {
+        width: 285px;
+    }
+    .mov 
+    {
+       margin-left: 10px; 
+       margin-right: 10px;
+    }
+}
+@media screen  and (min-width:400px) and (max-width:520px)
+{
+    .srch
+    {
+        width: 290px;
+    }
+
+}
+
+
+@media screen and (max-width:376px)
+{
+    .srch
+    {
+        width: 250px;
+    }
+    .mov 
+    {
+       margin-left: 0px; 
+       margin-right: 0px;
+    }
+
+}
