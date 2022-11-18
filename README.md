@@ -6,7 +6,7 @@ and PHP as Backend with MySQL Dtabase to store data.
  https://unincumbered-teleph.000webhostapp.com/stream/login.php
  
 # MOBILE VIEW: 
-![aec38f82-c29f-400a-8ffe-48e9d464a15f](https://user-images.githubusercontent.com/91247608/202736497-6cd622f1-8
+![8b5e7901-4b2f-4689-8f98-6cd16aa9d6a2](https://user-images.githubusercontent.com/91247608/202738577-b77dcf81-5178-481f-9fee-c0b101e94121.jpg)
 
 ![d0f0be72-dc2e-4da4-b80c-78466588b63e](https://user-images.githubusercontent.com/91247608/202736513-efe3258e-fa0c-4246-90e6-14126dc2e619.jpg)
 1c9-4a94-b
