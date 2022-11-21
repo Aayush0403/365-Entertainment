@@ -1,4 +1,4 @@
-# 365-Entertainment
+# 365-Entertain
 Developed a Movie Streaming Website. Used JAVASCRIPT,BOOTSTRAP,HTML and CSS as Frontend Technologies 
 and PHP as Backend with MySQL Dtabase to store data.
 
